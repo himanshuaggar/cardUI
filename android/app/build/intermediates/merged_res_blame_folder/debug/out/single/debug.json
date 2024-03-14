@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\8.3\\com.mytestapp-merged_res-36:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\8.3\\com.mytestapp-main-38:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\8.3\\com.mytestapp-merged_res-36:\\drawable_rn_edit_text_material.xml.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\8.3\\com.mytestapp-main-38:\\drawable\\rn_edit_text_material.xml"
+    },
+    {
+        "merged": "com.mytestapp-merged_res-36:/drawable-xhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.mytestapp-main-38:/drawable-xhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.mytestapp-merged_res-36:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.mytestapp-main-38:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.mytestapp-merged_res-36:/drawable-hdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.mytestapp-main-38:/drawable-hdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\8.3\\com.mytestapp-merged_res-36:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\8.3\\com.mytestapp-main-38:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "com.mytestapp-merged_res-36:/drawable-xxxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.mytestapp-main-38:/drawable-xxxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.mytestapp-merged_res-36:/drawable-xxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.mytestapp-main-38:/drawable-xxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\8.3\\com.mytestapp-merged_res-36:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\8.3\\com.mytestapp-main-38:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\8.3\\com.mytestapp-merged_res-36:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\8.3\\com.mytestapp-main-38:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\8.3\\com.mytestapp-merged_res-36:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\8.3\\com.mytestapp-main-38:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.mytestapp-merged_res-36:/drawable-mdpi_assets_img_snowflake.png.flat",
+        "source": "com.mytestapp-main-38:/drawable-mdpi/assets_img_snowflake.png"
+    },
+    {
+        "merged": "com.mytestapp-merged_res-36:/drawable-mdpi_assets_img_card.png.flat",
+        "source": "com.mytestapp-main-38:/drawable-mdpi/assets_img_card.png"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\8.3\\com.mytestapp-merged_res-36:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\8.3\\com.mytestapp-main-38:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\8.3\\com.mytestapp-merged_res-36:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\8.3\\com.mytestapp-main-38:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.mytestapp-merged_res-36:/drawable-mdpi_assets_img_redsnowflake.png.flat",
+        "source": "com.mytestapp-main-38:/drawable-mdpi/assets_img_redsnowflake.png"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\8.3\\com.mytestapp-merged_res-36:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\8.3\\com.mytestapp-main-38:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\8.3\\com.mytestapp-merged_res-36:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\8.3\\com.mytestapp-main-38:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "com.mytestapp-merged_res-36:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
+        "source": "com.mytestapp-main-38:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backiconmask.png"
+    },
+    {
+        "merged": "com.mytestapp-merged_res-36:/drawable-mdpi_assets_img_freeze.png.flat",
+        "source": "com.mytestapp-main-38:/drawable-mdpi/assets_img_freeze.png"
+    },
+    {
+        "merged": "C:\\Users\\himan\\.gradle\\daemon\\8.3\\com.mytestapp-merged_res-36:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\himan\\.gradle\\daemon\\8.3\\com.mytestapp-main-38:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    }
+]
