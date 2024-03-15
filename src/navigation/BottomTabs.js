@@ -1,39 +1,46 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import Home from '../screen/Home';
-import Pay from '../screen/Pay';
-import Ginie from '../screen/Ginie';
-import { NavigationContainer } from '@react-navigation/native';
-import { HomeIcon, VideoCameraIcon, BuildingStorefrontIcon, ChatBubbleLeftRightIcon } from 'react-native-heroicons/outline'
+import {QrCodeIcon } from 'react-native-heroicons/outline';
+import Home from '../screen/Home.js';
+import Ginie from '../screen/Ginie.js';
+import Pay from '../screen/Pay.js';
+
 
 const Tab = createBottomTabNavigator();
 
 const BottomTabs = () => {
   return (
       <Tab.Navigator initialRouteName="Home"
-        screenOptions={{
-          headerShown: false,
-          tabBarStyle: {
-            backgroundColor: '#d7e3fc',
-            height: 60,
-            borderTopWidth: 0, 
-            elevation: 0, 
-            shadowOpacity: 0,
-          },
-          tabBarLabelStyle: {
-            fontSize: 14,
-            fontWeight: 'bold',
-          },
-          tabBarActiveTintColor: 'black',
-          tabBarInactiveTintColor: 'gray',
-        }} >
+      screenOptions={{
+        headerShown: false,
+        tabBarStyle: {
+          borderTopWidth: 0, 
+          elevation: 0, 
+          shadowOpacity: 0,
+          height:100,
+          backgroundColor:'black',
+          borderTopLeftRadius:999,
+          borderTopRightRadius:999,
+          borderTopStartRadius:999,
+          borderTopEndRadius:999,
+          borderTopColor:'white',
+          borderWidth:10,
+          borderStyle:'solid'
+        },
+        tabBarLabelStyle: {
+          fontSize: 12,
+          fontWeight: 'bold',
+        },
+        tabBarActiveTintColor: 'white',
+        tabBarInactiveTintColor: 'gray',
+      }} >
         <Tab.Screen
           name="Home"
           component={Home}
           options={{
             tabBarIcon: ({ focused }) => {
-              return <HomeIcon size={30} strokeWidth={1} color="black" style={{ color: focused ? 'black' : 'gray' }} />;
+              return <Image source={require('../../assets/img/homeicon.png')} />;
             }
           }}
         />
@@ -42,7 +49,7 @@ const BottomTabs = () => {
           component={Pay}
           options={{
             tabBarIcon: ({ focused }) => {
-              return <BuildingStorefrontIcon size={30} strokeWidth={1} color="black" style={{ color: focused ? 'black' : 'gray' }} />;
+              return <QrCodeIcon size={50} strokeWidth={1} color="white" style={{ color: focused ? 'white' : 'gray' }}  />
             }
           }}
         />
@@ -51,7 +58,7 @@ const BottomTabs = () => {
           component={Ginie}
           options={{
             tabBarIcon: ({ focused }) => {
-              return <VideoCameraIcon size={30} strokeWidth={1} color="black" style={{ color: focused ? 'black' : 'gray' }} />;
+              return <Image source={require('../../assets/img/Frame 142.png')} />
             }
           }}
         />
