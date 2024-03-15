@@ -2,10 +2,10 @@ import { View, Text } from 'react-native'
 import React from 'react'
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import Home from '../screen/Home';
-import Pay from '../screen/Pay';
-import Ginie from '../screen/Ginie';
-import BottomTabs from './BottomTabs';
+import Home from '../screen/Home.js';
+import Pay from '../screen/Pay.js';
+import Ginie from '../screen/Ginie.js';
+import BottomTabs from './BottomTabs.js';
 
 const Stack = createNativeStackNavigator();
 
