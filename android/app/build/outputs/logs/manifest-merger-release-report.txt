@@ -7,6 +7,7 @@ INJECTED from C:\Users\himan\Desktop\MyTestApp\android\app\src\main\AndroidManif
 MERGED from [com.facebook.react:flipper-integration:0.73.6] C:\Users\himan\.gradle\caches\transforms-3\e02805435725bec767ba185544da6439\transformed\jetified-flipper-integration-0.73.6-release\AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-safe-area-context] C:\Users\himan\Desktop\MyTestApp\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-screens] C:\Users\himan\Desktop\MyTestApp\node_modules\react-native-screens\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-svg] C:\Users\himan\Desktop\MyTestApp\node_modules\react-native-svg\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-vector-icons] C:\Users\himan\Desktop\MyTestApp\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-7:12
 MERGED from [com.facebook.react:react-android:0.73.6] C:\Users\himan\.gradle\caches\transforms-3\b64db6df918ccbab726290dc2d0a74f3\transformed\jetified-react-android-0.73.6-release\AndroidManifest.xml:2:1-12:12
 MERGED from [com.facebook.fresco:fresco:3.1.3] C:\Users\himan\.gradle\caches\transforms-3\73ba53becf6a818dacbfe76ccb7dfd5a\transformed\jetified-fresco-3.1.3\AndroidManifest.xml:2:1-7:12
@@ -150,6 +151,8 @@ MERGED from [:react-native-safe-area-context] C:\Users\himan\Desktop\MyTestApp\n
 MERGED from [:react-native-safe-area-context] C:\Users\himan\Desktop\MyTestApp\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
 MERGED from [:react-native-screens] C:\Users\himan\Desktop\MyTestApp\node_modules\react-native-screens\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
 MERGED from [:react-native-screens] C:\Users\himan\Desktop\MyTestApp\node_modules\react-native-screens\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-svg] C:\Users\himan\Desktop\MyTestApp\node_modules\react-native-svg\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-svg] C:\Users\himan\Desktop\MyTestApp\node_modules\react-native-svg\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
 MERGED from [:react-native-vector-icons] C:\Users\himan\Desktop\MyTestApp\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
 MERGED from [:react-native-vector-icons] C:\Users\himan\Desktop\MyTestApp\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-44
 MERGED from [com.facebook.react:react-android:0.73.6] C:\Users\himan\.gradle\caches\transforms-3\b64db6df918ccbab726290dc2d0a74f3\transformed\jetified-react-android-0.73.6-release\AndroidManifest.xml:10:5-44

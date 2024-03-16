@@ -1,9 +1,17 @@
 R_DEF: Internal format may change without notice
 local
 drawable assets_img_card
+drawable assets_img_frame142
 drawable assets_img_freeze
+drawable assets_img_ginie
+drawable assets_img_hide
+drawable assets_img_homeicon
 drawable assets_img_redsnowflake
+drawable assets_img_rupay_logo
 drawable assets_img_snowflake
+drawable assets_img_u_copy
+drawable assets_img_yes_logo
+drawable assets_img_yolo_logo
 drawable node_modules_reactnavigation_elements_src_assets_backicon
 drawable node_modules_reactnavigation_elements_src_assets_backiconmask
 drawable rn_edit_text_material

@@ -2881,9 +2881,17 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable assets_img_card
+drawable assets_img_frame142
 drawable assets_img_freeze
+drawable assets_img_ginie
+drawable assets_img_hide
+drawable assets_img_homeicon
 drawable assets_img_redsnowflake
+drawable assets_img_rupay_logo
 drawable assets_img_snowflake
+drawable assets_img_u_copy
+drawable assets_img_yes_logo
+drawable assets_img_yolo_logo
 drawable autofill_inline_suggestion_chip_background
 drawable avd_hide_password
 drawable avd_show_password

@@ -224,6 +224,19 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="C:\Users\himan\Desktop\MyTestApp\android@@:react-native-svg::release"
+      jars="C:\Users\himan\Desktop\MyTestApp\node_modules\react-native-svg\android\build\.transforms\ef92ba182449720e51ca0e65811c81fe\transformed\out\jars\classes.jar;C:\Users\himan\Desktop\MyTestApp\node_modules\react-native-svg\android\build\.transforms\ef92ba182449720e51ca0e65811c81fe\transformed\out\jars\libs\R.jar"
+      resolved="MyTestApp:react-native-svg:unspecified"
+      folder="C:\Users\himan\Desktop\MyTestApp\node_modules\react-native-svg\android\build\.transforms\ef92ba182449720e51ca0e65811c81fe\transformed\out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="C:\Users\himan\Desktop\MyTestApp\android@@:react-native-vector-icons::release"
       jars="C:\Users\himan\Desktop\MyTestApp\node_modules\react-native-vector-icons\android\build\.transforms\daa5239f71d43d6b7b9cedb03ab1ca57\transformed\out\jars\classes.jar;C:\Users\himan\Desktop\MyTestApp\node_modules\react-native-vector-icons\android\build\.transforms\daa5239f71d43d6b7b9cedb03ab1ca57\transformed\out\jars\libs\R.jar"
       resolved="MyTestApp:react-native-vector-icons:unspecified"

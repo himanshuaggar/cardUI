@@ -7,15 +7,16 @@ import {
   Animated,
   TouchableOpacity,
   StyleSheet,
+  ScrollView,
 } from 'react-native';
-import React, {useState, useEffect, useRef} from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
 import card from '../../assets/img/card.png';
 import card2 from '../../assets/img/freeze.png';
 import snow from '../../assets/img/snowflake.png';
 import redsnow from '../../assets/img/redsnowflake.png';
 
-const {width, height} = Dimensions.get('screen');
+const { width, height } = Dimensions.get('screen');
 
 const Home = () => {
   const [isFrozen, setIsFrozen] = useState(true);
@@ -40,7 +41,7 @@ const Home = () => {
       const response = await axios.get(
         'https://fakerapi.it/api/v1/credit_cards',
       );
-      const {data} = response.data;
+      const { data } = response.data;
       console.log(data);
 
       if (data && data.length > 0) {
@@ -71,185 +72,188 @@ const Home = () => {
 
   return (
     <SafeAreaView style={styles.container}>
-      <View>
-        <Text style={styles.heading}>Select Payment mode</Text>
-        <Text style={styles.subheading}>
-          choose your preferred payment method to make payment.
-        </Text>
-        <View style={styles.optionsContainer}>
-          <TouchableOpacity style={styles.payOptionContainer}>
-            <Text style={styles.payText}>pay</Text>
-          </TouchableOpacity>
-          <TouchableOpacity style={styles.cardContainer}>
-            <Text style={styles.cardText}>card</Text>
-          </TouchableOpacity>
-        </View>
-        <Text style={styles.cardHeading}>YOUR DIGITAL DEBIT CARD</Text>
+      <ScrollView>
         <View>
-          <View style={styles.debitCardContainer}>
-            {isFrozen ? (
-              <Image source={card2} />
-            ) : (
-              <View
-                style={{
-                  height: 440,
-                  width: 270,
-                }}>
+          <Text style={styles.heading}>Select Payment mode</Text>
+          <Text style={styles.subheading}>
+            choose your preferred payment method to make payment.
+          </Text>
+          <View style={styles.optionsContainer}>
+            <TouchableOpacity style={styles.payOptionContainer}>
+              <Text style={styles.payText}>pay</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={styles.cardContainer}>
+              <Text style={styles.cardText}>card</Text>
+            </TouchableOpacity>
+          </View>
+          <Text style={styles.cardHeading}>YOUR DIGITAL DEBIT CARD</Text>
+          <View>
+            <View style={styles.debitCardContainer}>
+              {isFrozen ? (
                 <View
                   style={{
-                    height: 296,
-                    width: 186,
-                    backgroundColor: 'black',
-                    shadowColor: 'white',
-                    shadowOpacity: 1,
-                    display: 'flex',
-                    borderStyle: 'solid',
-                    borderWidth: 1,
-                    borderColor: '#808080',
-                    borderRadius: 20,
-                    padding: 10,
-                    marginTop: 60,
-                    marginHorizontal: 15,
+                    height: 440,
+                    width: 270,
                   }}>
                   <View
                     style={{
+                      height: 296,
+                      width: 186,
+                      backgroundColor: 'black',
+                      shadowColor: 'white',
+                      shadowOpacity: 1,
                       display: 'flex',
-                      flexDirection: 'row',
-                      alignItems: 'center',
-                      justifyContent: 'space-between',
+                      borderStyle: 'solid',
+                      borderWidth: 1,
+                      borderColor: '#808080',
+                      borderRadius: 20,
+                      padding: 10,
+                      marginTop: 60,
+                      marginHorizontal: 15,
                     }}>
-                    <Image
-                      source={require('../../assets/img/yolo_logo.png')}
-                      height={50}
-                      width={100}
-                    />
-                    <Image
-                      source={require('../../assets/img/yes_logo.png')}
-                      height={50}
-                      width={100}
-                    />
-                  </View>
-                  <View
-                    style={{
-                      display: 'flex',
-                      marginVertical: 20,
-                      flexDirection: 'row',
-                      justifyContent: 'space-between',
-                      alignItems: 'center',
-                      paddingHorizontal: 10,
-                      gap: 20,
-                    }}>
-                    <Text
-                      style={{color: 'white', fontWeight: '500', fontSize: 24}}>
-                      {cardDetails.cardNumber}
-                    </Text>
-                    <View style={{display: 'flex'}}>
-                      <View>
+                    <View
+                      style={{
+                        display: 'flex',
+                        flexDirection: 'row',
+                        alignItems: 'center',
+                        justifyContent: 'space-between',
+                      }}>
+                      <Image
+                        source={require('../../assets/img/yolo_logo.png')}
+                        height={50}
+                        width={100}
+                      />
+                      <Image
+                        source={require('../../assets/img/yes_logo.png')}
+                        height={50}
+                        width={100}
+                      />
+                    </View>
+                    <View
+                      style={{
+                        display: 'flex',
+                        marginVertical: 20,
+                        flexDirection: 'row',
+                        justifyContent: 'space-between',
+                        alignItems: 'center',
+                        paddingHorizontal: 10,
+                        gap: 20,
+                      }}>
+                      <Text
+                        style={{ color: 'white', fontWeight: '500', fontSize: 24 }}>
+                        {cardDetails.cardNumber}
+                      </Text>
+                      <View style={{ display: 'flex' }}>
+                        <View>
+                          <Text
+                            style={{
+                              color: '#808080',
+                              fontWeight: '200',
+                              marginBottom: 5,
+                            }}>
+                            expiry
+                          </Text>
+                          <Text
+                            style={{
+                              color: 'white',
+                              marginBottom: 5,
+                              fontWeight: '300',
+                            }}>
+                            {cardDetails.expDate}
+                          </Text>
+                        </View>
                         <Text
                           style={{
                             color: '#808080',
                             fontWeight: '200',
                             marginBottom: 5,
                           }}>
-                          expiry
+                          CVV
                         </Text>
-                        <Text
+                        <View
                           style={{
-                            color: 'white',
-                            marginBottom: 5,
-                            fontWeight: '300',
+                            display: 'flex',
+                            flexDirection: 'row',
+                            alignItems: 'center',
+                            justifyContent: 'center',
                           }}>
-                          {cardDetails.expDate}
-                        </Text>
+                          <Text
+                            style={{
+                              color: 'white',
+                              fontWeight: '700',
+                              marginBottom: 5,
+                              marginRight: 10,
+                              fontSize: 20,
+                            }}>
+                            ***
+                          </Text>
+                          <Image
+                            source={require('../../assets/img/hide.png')}
+                            height={5}
+                            width={5}
+                            resizeMode="contain"
+                          />
+                        </View>
                       </View>
-                      <Text
-                        style={{
-                          color: '#808080',
-                          fontWeight: '200',
-                          marginBottom: 5,
-                        }}>
-                        CVV
-                      </Text>
-                      <View
+                    </View>
+                    <View>
+                      <TouchableOpacity
                         style={{
                           display: 'flex',
                           flexDirection: 'row',
-                          alignItems: 'center',
-                          justifyContent: 'center',
+                          paddingHorizontal: 5,
                         }}>
-                        <Text
-                          style={{
-                            color: 'white',
-                            fontWeight: '700',
-                            marginBottom: 5,
-                            marginRight: 10,
-                            fontSize: 20,
-                          }}>
-                          ***
+                        <Image source={require('../../assets/img/u_copy.png')} />
+                        <Text style={{ color: 'red', paddingHorizontal: 5 }}>
+                          copy details
                         </Text>
-                        <Image
-                          source={require('../../assets/img/hide.png')}
-                          height={5}
-                          width={5}
-                          resizeMode="contain"
-                        />
-                      </View>
+                      </TouchableOpacity>
+                    </View>
+                    <View
+                      style={{
+                        marginTop: 20,
+                        position: 'absolute',
+                        right: 10,
+                        bottom: 14,
+                      }}>
+                      <Image
+                        source={require('../../assets/img/rupay_logo.png')}
+                      />
                     </View>
                   </View>
-                  <View>
-                    <TouchableOpacity
-                      style={{
-                        display: 'flex',
-                        flexDirection: 'row',
-                        paddingHorizontal: 5,
-                      }}>
-                      <Image source={require('../../assets/img/u_copy.png')} />
-                      <Text style={{color: 'red', paddingHorizontal: 5}}>
-                        copy details
-                      </Text>
-                    </TouchableOpacity>
-                  </View>
-                  <View
-                    style={{
-                      marginTop: 20,
-                      position: 'absolute',
-                      right: 10,
-                      bottom: 14,
-                    }}>
+                </View>
+              ) : (
+                <Image source={card2} />
+              )}
+
+              <View style={styles.freezeCOntainer}>
+                <TouchableOpacity
+                  style={styles.freezeButton}
+                  onPress={handlePress}>
+                  <View style={styles.freezeButtonInner}>
                     <Image
-                      source={require('../../assets/img/rupay_logo.png')}
+                      source={isFrozen ? snow : redsnow}
+                      style={styles.freezeIcon}
                     />
                   </View>
-                </View>
+                  <Text
+                    style={{
+                      color: isFrozen ? 'white' : 'red',
+                      fontSize: 14,
+                      marginTop: 10,
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                    }}>
+                    {' '}
+                    {isFrozen ? 'Freeze' : 'Unfreeze'}
+                  </Text>
+                </TouchableOpacity>
               </View>
-            )}
-
-            <View style={styles.freezeCOntainer}>
-              <TouchableOpacity
-                style={styles.freezeButton}
-                onPress={handlePress}>
-                <View style={styles.freezeButtonInner}>
-                  <Image
-                    source={isFrozen ? snow : redsnow}
-                    style={styles.freezeIcon}
-                  />
-                </View>
-                <Text
-                  style={{
-                    color: isFrozen ? 'white' : 'red',
-                    fontSize: 14,
-                    marginTop: 10,
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                  }}>
-                  {' '}
-                  {isFrozen ? 'Freeze' : 'Unfreeze'}
-                </Text>
-              </TouchableOpacity>
             </View>
           </View>
         </View>
-      </View>
+        <View style={{height:200,}}></View>
+      </ScrollView>
     </SafeAreaView>
   );
 };
